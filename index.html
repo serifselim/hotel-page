@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/main.css">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="" class="logo">
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search hotel" class="search-box__search-input">
+                <button class="search-box__search-icon"><i class="fas fa-search"></i></button>
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <a href="#"><i class="fas fa-bookmark fa-lg"></i></a>
+                    <span class="user-nav__notification">11</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <a href="#"><i class="fas fa-comments fa-lg"></i></a>
+                    <span class="user-nav__notification">17</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="img/profile.jpg" alt="" class="user-photo">
+                    <span class="user-nav__user-name">Serif</span>
+                </div>
+
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__list">
+                        <a href="#" class="side-nav__link">
+                            <i class="fas fa-home fa-lg"></i>
+                            <span>HOTEL</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__list">
+                        <a href="#" class="side-nav__link">
+                            <i class="fas fa-plane-arrival fa-lg"></i>
+                            <span>FLİGHT</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__list">
+                        <a href="#" class="side-nav__link">
+                            <i class="fas fa-car fa-lg"></i>
+                            <span>CAR RENTAL</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__list">
+                        <a href="#" class="side-nav__link">
+                            <i class="fab fa-discourse fa-lg"></i>
+                            <span>TOURS</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    © 2017 by trillo. All rights reserved.
+                </div>
+            </nav>
+
+            <main class="hotel-view">
+                <div class="gallery">
+                    <div class="gallery__img-box">
+                        <img src="./img/hotel-1.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__img-box">
+                        <img src="./img/hotel-2.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__img-box">
+                        <img src="./img/hotel-3.jpg" alt="" class="gallery__img">
+                    </div>
+                </div>
+
+
+
+                <div class="overview">
+                    <h1 class="overview__heading">HOTEL LAS PALMAS</h1>
+                    <div class="overview__location">
+                        <button class="border-button">Albanian Portugal</button>
+                    </div>
+                    <div class="overview__rating">
+                        <div class="overview__rating-avarage">8.6</div>
+                        <div class="overview__rating-count">420 Vote</div>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis
+                            ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                            architecto voluptate.
+                        </p>
+                        <p class="paragraph">
+                            Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus,
+                            inventore iure aliquid aliquam.
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                            <li class="list__item">Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="img/user-3.jpg" alt="Friends 1" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="Friends 2" class="recommend__photo">
+                                <img src="img/user-5.jpg" alt="Friends 3" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="Friends 4" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto
+                                dicta animi, totam, itaque officia ex.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Nick Smith</p>
+                                    <p class="review__user-date">Feb 23rd, 2017</p>
+                                </div>
+                                <div class="review__rating">
+                                    7.8
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto
+                                dicta animi, totam, itaque officia ex.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-2.jpg" alt="User 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Mary Thomas</p>
+                                    <p class="review__user-date">Sept 13th, 2017</p>
+                                </div>
+                                <div class="review__rating">
+                                    9.3
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="user-reviews__button">Show all <span><i class="fas fa-chevron-right"></i></span></button>
+                    </div>
+
+                    <!-- <div class="cta">
+                        <h2 class="cta__book-now">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </h2>
+                        <button class="btn">
+                            Only 4 rooms left
+                        </button>
+                    </div> -->
+                </div>
+
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Book now</span>
+                        <span class="btn__invisible">Only 4 rooms left </span>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
